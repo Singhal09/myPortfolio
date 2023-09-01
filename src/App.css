@@ -1,0 +1,82 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.name {
+  text-align: center;
+  color: white; /* Text color */
+}
+
+h1 {
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Add more CSS styles as needed */
+
+
+/* CSS for animating your name and title */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.name-title-container {
+  animation: fadeInUp 1s ease 0.5s forwards; /* Adjust the duration and delay as needed */
+}
+
+
+/* CSS for gradient background in the header section */
+
+.header {
+  background: linear-gradient(45deg, #FF6B6B, #FFD166, #06D6A0, #118AB2);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
