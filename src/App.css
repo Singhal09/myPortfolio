@@ -1,5 +1,41 @@
 /* src/App.css */
 
+/* Header Styles */
+.header {
+  position: relative;
+  height: 400px; /* Adjust the height to your preference */
+  background-image: url('./images/port.avif');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay color (adjust opacity as needed) */
+}
+
+.header-content {
+  z-index: 1; /* Ensure content is on top of the background */
+}
+
+h1 {
+  font-size: 36px; /* Your name font size */
+  margin: 0;
+}
+
+p {
+  font-size: 20px; /* Your title font size */
+}
+
 .App {
   text-align: center;
 }
@@ -17,10 +53,10 @@
   flex-direction: column;
   height: 100vh;
 }
-
+/*
 .name {
   text-align: center;
-  color: white; /* Text color */
+  color: white;
 }
 
 h1 {
@@ -29,7 +65,7 @@ h1 {
 
 .App-header p {
   font-size: 1.2rem;
-}
+} */
 
 section {
   padding: 40px;
@@ -63,11 +99,11 @@ h2 {
 
 /* CSS for gradient background in the header section */
 
-.header {
+/* .header {
   background: linear-gradient(45deg, #FF6B6B, #FFD166, #06D6A0, #118AB2);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
-}
+} */
 
 @keyframes gradientBG {
   0% {
@@ -80,3 +116,225 @@ h2 {
     background-position: 0% 50%;
   }
 }
+
+
+/* Apply animation to the heading */
+/* .about-heading {
+  animation: fadeInUp 1s ease;
+}
+
+
+.about-description {
+  animation: fadeInLeft 1s ease;
+} */
+
+/* Define the animations */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/* Add background gradient */
+/* .about-section {
+  background: linear-gradient(45deg, #ff6b6b, #ffa07a);
+  background-size: 200% 200%;
+  animation: gradientBG 5s ease infinite;
+  height: 300px;
+} */
+
+
+/* Animation for the gradient background */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Style for the active link */
+#navbar a.active {
+  color: #ff6b6b; /* Change to your desired active link color */
+}
+
+/* Import your background image */
+body {
+  background-image: url('./images/port.avif');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+}
+
+
+/* Slide In Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to an element */
+.slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+
+/* Spin Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to an element */
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Apply the animation to an element */
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to an element */
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+
+/* Typing Animation */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Apply the animation to a text element */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(50, end) infinite;
+}
+
+
+
+/* About Me Section Styles */
+.about {
+  padding: 60px 0;
+  background-color: #f9f9f9; /* Background color for the section */
+}
+
+.about-content {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse; /* Display image on the left and text on the right */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 28px; /* Title font size */
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px; /* Description font size */
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 40%; /* Ensure the image stays within its container */
+  border-radius: 50%; /* Make the image round if needed */
+}
+
+/* Image Animation on Hover */
+/* Shadow Pulse on Hover */
+.about-image img:hover {
+  transform: scale(1.1) rotate(10deg); /* Adjust scale and rotation */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 138, 0, 0.7); /* Adjust the color and opacity */
+  animation: pulse-shadow 1s infinite alternate; /* Create a pulsing animation */
+}
+
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 138, 0, 0.7); /* Shadow properties on start */
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 138, 0, 0.9); /* Shadow properties on end */
+  }
+}
+
+
+
+
+
+
+

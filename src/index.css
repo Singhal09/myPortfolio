@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('./images/port.avif');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Style the side navigation menu */
+.sidenav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  padding: 20px;
+}
+
+/* Style the navigation links */
+.sidenav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+/* Style the navigation links on hover */
+.sidenav a:hover {
+  color: #ff6b6b;
+}
+
