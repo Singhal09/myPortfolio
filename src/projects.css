@@ -1,0 +1,47 @@
+/* Add these styles to your CSS file */
+
+.Projects {
+    padding: 40px;
+    background-color: #f8f8f8; /* Background color for the Projects section */
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between projects as needed */
+  }
+  
+  .project {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the project card width */
+    /* You can use media queries for responsive design */
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .project a:hover {
+    color: #0056b3;
+  }
+  
