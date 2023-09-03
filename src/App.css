@@ -4,7 +4,7 @@
 .header {
   position: relative;
   height: 400px; /* Adjust the height to your preference */
-  background-image: url('./images/port.avif');
+  background-image: url('./assets/images/port.avif');
   background-size: cover;
   background-position: center;
   color: #fff; /* Text color */
@@ -181,7 +181,7 @@ h2 {
 
 /* Import your background image */
 body {
-  background-image: url('./images/port.avif');
+  background-image: url('./assets/images/port.avif');
   background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: Keep the background fixed */

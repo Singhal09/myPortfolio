@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url('./images/port.avif');
+  background-image: url('./assets/images/port.avif');
   background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat;
 }

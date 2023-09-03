@@ -3,8 +3,8 @@ import './App.css';
 import Projects from './projects';
 import About from './about';
 import NavigationBar from './navigationBar';
-import backgroundImage from './images/port.avif';
-import pic from "./images/pic.jpeg";
+import backgroundImage from './assets/images/port.avif';
+import pic from "./assets/images/pic.jpeg";
 
 
 function App() {

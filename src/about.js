@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
-import pic from "./images/pic.jpeg";
+import pic from "./assets/images/pic.jpeg";
 
 function About() {
   const [isImageVisible, setImageVisible] = useState(false);
