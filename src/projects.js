@@ -11,9 +11,21 @@ function Projects() {
 
   return (
     <animated.div style={fadeIn}>
-      <section className='Projects'>
+      <section id="project" className='Projects'>
+      <div className='project-container'>
+      <div className='project'>
         <h2>Projects</h2>
-        {"abcdefghijklmnopqrstuvwxyz"}
+        <p>{"abcdefghijklmnopqrstuvwxyz"}</p>
+        </div>
+        <div className='project'>
+        <h2>Projects</h2>
+        <p>{"abcdefghijklmnopqrstuvwxyz"}</p>
+        </div>
+        <div className='project'>
+        <h2>Projects</h2>
+        <p>{"abcdefghijklmnopqrstuvwxyz"}</p>
+        </div>
+        </div>
       </section>
     </animated.div>
   );

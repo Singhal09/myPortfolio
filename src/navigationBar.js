@@ -34,6 +34,9 @@ function NavigationBar() {
         <li className={activeLink === 'projects' ? 'active' : ''}>
           <a href="#projects">Projects</a>
         </li>
+        <li className={activeLink === 'certificate' ? 'active' : ''}>
+          <a href="#certificate">Certificate</a>
+        </li>
         <li className={activeLink === 'contact' ? 'active' : ''}>
           <a href="#contact">Contact</a>
         </li>

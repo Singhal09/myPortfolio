@@ -35,7 +35,7 @@ function About() {
   }, []);
 
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about-content">
         <div className="about-text">
           <h2>About Me</h2>

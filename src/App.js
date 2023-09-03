@@ -2,9 +2,11 @@ import React from 'react';
 import './App.css';
 import Projects from './projects';
 import About from './about';
+import Contacts from './contact';
 import NavigationBar from './navigationBar';
 import backgroundImage from './assets/images/port.avif';
 import pic from "./assets/images/pic.jpeg";
+import Certificates from './certificates';
 
 
 function App() {
@@ -44,12 +46,14 @@ function App() {
       <Projects/>
       </section>
 
-      <section id="contact" className="Contact">
+      {/* <section id="contact" className="Contact">
         <h2>Contact</h2>
         <p>Email: sanyasingla2003@gmail.com</p>
         <p>LinkedIn: https://www.linkedin.com/in/sanya-singhal/</p>
         <p>GitHub: github.com/Singhal09</p>
-      </section>
+      </section> */}
+      <Certificates/>
+      <Contacts/>
 
       
     </div>

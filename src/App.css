@@ -181,10 +181,10 @@ h2 {
 
 /* Import your background image */
 body {
-  background-image: url('./assets/images/port.avif');
-  background-size: cover; /* Adjust as needed */
+  /* background-image: url('./assets/images/port1.avif'); */
+   background-size: cover; 
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: Keep the background fixed */
+  background-attachment: fixed; 
 }
 
 
