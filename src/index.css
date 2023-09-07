@@ -1,42 +1,50 @@
-body {
-  margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Add this to your CSS file or styles */
 
-   background-image: url('./assets/images/port1.avif'); 
-   background-size: cover; 
-  background-repeat: no-repeat; 
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/* Style the side navigation menu */
-.sidenav {
-  position: fixed;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+/* Footer styles */
+.footer {
   background-color: #333;
-  padding: 20px;
-}
-
-/* Style the navigation links */
-.sidenav a {
-  display: block;
   color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Contact details section */
+.contact-details {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contact-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+  line-height: 1.5;
+  flex-basis: calc(33.33% - 20px);
+  text-align: left;
+}
+
+/* Social media links section */
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  color: #007bff;
+  font-size: 24px;
+  margin: 0 15px;
   text-decoration: none;
-  margin: 10px 0;
-  transition: 0.3s;
+  transition: color 0.3s ease-in-out;
 }
 
-/* Style the navigation links on hover */
-.sidenav a:hover {
-  color: #ff6b6b;
+.social-links a:hover {
+  color: #0056b3; /* Slightly darker shade on hover */
 }
-

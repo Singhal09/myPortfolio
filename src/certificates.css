@@ -25,4 +25,52 @@
     font-size: 24px;
     margin-right: 10px;
   }
+
   
+  /* LinkedInCertifications.css */
+
+.linkedin-certifications {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.certificate {
+  width: 200px;
+  text-align: center;
+}
+
+.certificate-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #007bff; /* Customize border color */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.certificate-name {
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer; /* Add cursor pointer on hover for the name */
+}
+
+.certificate-name:hover {
+  transform: translateY(-5px); /* Add a slight pop-up effect for the name */
+}
+
+.certificate-image:hover {
+  transform: translateY(-5px); /* Add a slight pop-up effect for the name */
+}
+
+.certificate-name:hover + .certificate .certificate-image {
+  transform: scale(1.1) translateY(-5px); /* Add zoom effect on hover */
+  z-index: 1; /* Bring the image to the front */
+}

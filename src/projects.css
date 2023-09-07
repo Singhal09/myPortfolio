@@ -44,4 +44,90 @@
   .project a:hover {
     color: #0056b3;
   }
+
+
+
+  /* ProjectSection.css */
+
+.project-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add this to your existing CSS file or styles */
+/* 
+.screenshot-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.screenshot-container img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px; 
+} */
+
+
+/* Add this to your existing CSS file or styles */
+
+.screenshot-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling animation (optional) */
+  padding-bottom: 10px; /* Add some space at the bottom for better aesthetics */
+}
+
+.screenshot-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for a cleaner look (optional) */
+}
+
+.screenshot-container img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px; /* Adjust spacing between screenshots */
+}
+
+/* Add this to your CSS file or styles */
+
+/* Container for the project screenshots */
+.project-screenshots {
+  max-width: 100%; /* Adjust as needed */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks */
+  border: 1px solid #ddd; /* Optional: Add a border */
+  border-radius: 5px; /* Optional: Add border radius */
+  padding: 10px; /* Optional: Add padding */
+  margin-bottom: 20px; /* Optional: Add margin */
+}
+
+/* Individual project screenshot */
+.project-screenshot {
+  display: inline-block;
+  max-width: 100%; /* Adjust as needed */
+  margin-right: 10px; /* Adjust spacing between screenshots */
+  max-height: 500px;
+}
+
+
   
