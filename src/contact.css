@@ -92,19 +92,6 @@
     transition: color 0.3s ease;
   }
   
-  .detail {
-    flex-basis: calc(33.33% - 20px);
-    margin: 20px;
-    padding: 20px;
-    background-color: #444;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .detail:hover {
-    transform: translateY(-5px);
-  }
   
   /* Add hover effects for both icon and text links */
   .icon-link:hover,

@@ -1,0 +1,42 @@
+/* Container for the entire education section */
+.education-section {
+    display: flex;
+    justify-content: space-between; /* Push the college picture to the right */
+    align-items: center; /* Center content vertically */
+    margin-top: 20px; /* Add spacing at the top if needed */
+  }
+  
+  /* Container for the education content (left side) */
+  .education-content {
+    flex: 1; /* Expand to fill available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Style the education entry */
+  .education-entry {
+    margin-bottom: 20px; /* Add spacing between entries if needed */
+  }
+  
+  .education-entry h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .education-entry p {
+    margin: 4px 0;
+    font-size: 1rem;
+    font-size: larger;
+  }
+  
+  /* Container for the college picture (right side) */
+  .college-picture {
+    flex-shrink: 0; /* Don't allow the picture to shrink */
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .college-picture img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

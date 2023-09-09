@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Projects from './projects';
 import About from './about';
+import Education from './education';
 import Contact from './contact';
 import NavigationBar from './navigationBar';
 import backgroundImage from './assets/images/port.avif';
@@ -41,6 +42,10 @@ function App() {
       </section> */}
       <section id="about">
       <About/>
+      </section>
+
+      <section id="education">
+        <Education/>
       </section>
       
       <section id="projects">

@@ -43,6 +43,9 @@ import web1 from './assets/images/web1.png';
 import web2 from './assets/images/web2.png';
 import web3 from './assets/images/web3.png';
 import web4 from './assets/images/web4.png';
+import database1 from './assets/images/database1.png';
+import database2 from './assets/images/database2.png';
+import database3 from './assets/images/database3.png';
 
 
 const projects = [
@@ -65,6 +68,16 @@ const projects = [
     skills: 'JavaScript, TypeScript, HTML/CSS, MongoDB',
     imageUrls: [web1, web2, web3, web4], // Replace with the actual image URL
   },
+  {
+    title: 'Lake Ridge Community Hospital Database System',
+    description: 'In this project, I have successfully designed and implemented a comprehensive database system for a hospital,'+
+    ' encompassing all the necessary SQL scripts and an intuitive dashboard using a Windows Presentation Foundation (WPF) application'+
+    ' with seamless SQL database connectivity. The system efficiently manages patient details, physician information, and provides '+
+    'detailed revenue reports, streamlining the hospitals operations and enhancing decision-making processes.',
+    skills: 'SQL, C#, WPF',
+    imageUrls: [database1, database2, database3],
+
+  }
   // Add more projects as needed
 ];
 
