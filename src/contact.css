@@ -1,11 +1,12 @@
 /* Footer.css */
 
 .footer {
-    background-color: #333;
+    background-color: #333333a3;
     color: #fff;
     padding: 50px 0;
     text-align: center;
     font-family: Arial, sans-serif;
+    opacity: 100px;
   }
   
   .contact-details {
@@ -30,7 +31,7 @@
     flex-basis: calc(33.33% - 20px);
     margin: 20px;
     padding: 20px;
-    background-color: #444;
+    background-color: #4444449c;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -43,7 +44,7 @@
   .icon {
     width: 50px;
     height: 50px;
-    background-color: #007bff; /* Customize the icon background color */
+    background-color: #007bff1a; /* Customize the icon background color */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -75,7 +76,7 @@
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #007bff; /* Customize the icon background color */
+    background-color: #65dfef; /* Customize the icon background color */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -87,7 +88,7 @@
   }
   
   .text-link {
-    color: #007bff; /* Customize the text link color */
+    color: #eef1f4fe; /* Customize the text link color */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
   }

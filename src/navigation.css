@@ -5,6 +5,9 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: #333;
+    border: 2px #cbe410;
+    border-radius: 20px;
+    opacity: 80%;
     padding: 20px;
   }
   
