@@ -16,7 +16,7 @@
 
 .header-background {
   position: absolute;
-  top: 0;
+  /* top: 0; */
   left: 0;
   width: 100%;
   height: 100%;
@@ -24,7 +24,7 @@
 }
 
 .header-content {
-  z-index: 1; /* Ensure content is on top of the background */
+   z-index: 0;  
 }
 
 h1 {
@@ -44,10 +44,10 @@ p {
   background-color: #333;
   text-align: center;
   color: white;
-  padding: 20px;
-  height: 300px;
+  /* padding: 20px; */
+  /* height: 250px; */
 
-  display: flex;
+   display: flex; 
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -278,7 +278,7 @@ body {
 /* About Me Section Styles */
 .about {
   padding: 60px 0;
-  background-color: #f9f9f9a9; /* Background color for the section */
+  background-color: #f9f9f944; /* Background color for the section */
 }
 
 .about-content {

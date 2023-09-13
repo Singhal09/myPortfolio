@@ -45,6 +45,14 @@
   }
   
   #navbar ul li a[href^="#"]:hover {
-    background-color: #444;
+    background-color: #381ad100;
   }
   
+  
+/* Active link style */
+#navbar ul li.active a {
+  color: rgb(112, 112, 201); /* Change the color of the active link */
+  font-size: 30px ;
+  
+  
+}

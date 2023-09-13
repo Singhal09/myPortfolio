@@ -31,6 +31,9 @@ function NavigationBar() {
         <li className={activeLink === 'about' ? 'active' : ''}>
           <a href="#about">About Me</a>
         </li>
+        <li className={activeLink === 'education' ? 'active' : ''}>
+          <a href="#education">Education</a>
+        </li>
         <li className={activeLink === 'projects' ? 'active' : ''}>
           <a href="#projects">Projects</a>
         </li>

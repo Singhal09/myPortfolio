@@ -5,7 +5,7 @@ import college from './assets/images/college.jpg';
 
 const Education = () => {
   return (
-    <section className="education-section">
+    <section id="education" className="education-section">
       <div className="education-content">
         <h2>Education</h2>
         <div className="education-entry">
@@ -18,7 +18,7 @@ const Education = () => {
       <div className="college-picture">
         <img
           src={college} 
-          alt="College Picture"
+          alt="College"
         />
       </div>
     </section>
