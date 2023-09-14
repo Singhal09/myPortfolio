@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-    <section id="#" >
+    <section id="#">
        <header className="App-header name-title-container header">
        <div className='header-background'></div>
        <div className='header-content'>
@@ -43,15 +43,15 @@ function App() {
         </div>
       </section> */}
       <NavigationBar/>
-      <section id="about">
+      <section id="about" className='section1'>
       <About/>
       </section>
 
-      <section id="education">
+      <section id="education" className='section1'>
         <Education/>
       </section>
       
-      <section id="projects">
+      <section id="projects" className='section1'>
       <Projects/>
       </section>
 
@@ -62,7 +62,7 @@ function App() {
         <p>GitHub: github.com/Singhal09</p>
       </section> */}
       <Certificates/>
-      <section id="contact">
+      <section id="contact" className='section1'>
       <Contact/>
       </section>
 

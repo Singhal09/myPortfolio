@@ -4,6 +4,7 @@
     justify-content: space-between; /* Push the college picture to the right */
     align-items: center; /* Center content vertically */
     margin-top: 20px; /* Add spacing at the top if needed */
+    background-color: rgba(250, 235, 215, 0.388);
   }
   
   /* Container for the education content (left side) */
