@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-    
+    <section id="#" >
        <header className="App-header name-title-container header">
        <div className='header-background'></div>
        <div className='header-content'>
@@ -22,6 +22,7 @@ function App() {
         <p className='bounce'>Full Stack Developer</p>
         </div>
       </header>
+      </section>
       
 
       {/* <section id="about" className="about About about-section about-overlay">
