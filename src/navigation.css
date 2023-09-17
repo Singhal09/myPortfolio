@@ -31,12 +31,12 @@
   
   /* Style for the active link */
   #navbar ul li a.active {
-    color: #ff6b6b; /* Change to your desired active link color */
+    color: rgb(112, 112, 201); /* Change to your desired active link color */
   }
   
   /* Add a hover effect */
   #navbar ul li a:hover {
-    color: #ff6b6b; /* Change to your desired hover color */
+    color: rgb(112, 112, 201); /* Change to your desired hover color */
   }
   
   /* Add smooth scrolling for anchor links */
