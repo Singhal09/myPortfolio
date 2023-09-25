@@ -5,8 +5,8 @@ import About from './about';
 import Education from './education';
 import Contact from './contact';
 import NavigationBar from './navigationBar';
-import backgroundImage from './assets/images/port.avif';
-import pic from "./assets/images/pic.jpeg";
+// import backgroundImage from './assets/images/port.avif';
+// import pic from "./assets/images/pic.jpeg";
 import Certificates from './certificates';
 
 

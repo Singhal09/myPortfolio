@@ -46,6 +46,7 @@ import web4 from './assets/images/web4.png';
 import database1 from './assets/images/database1.png';
 import database2 from './assets/images/database2.png';
 import database3 from './assets/images/database3.png';
+import database from './assets/images/database.png';
 
 
 const projects = [
@@ -75,7 +76,7 @@ const projects = [
     ' with seamless SQL database connectivity. The system efficiently manages patient details, physician information, and provides '+
     'detailed revenue reports, streamlining the hospitals operations and enhancing decision-making processes.',
     skills: 'SQL, C#, WPF',
-    imageUrls: [database1, database2, database3],
+    imageUrls: [database, database1, database2],
 
   }
   // Add more projects as needed
